@@ -1,2 +1,1 @@
-# Labs:
-#  [zero lab](https://otm-pro.github.io/InternetProgramming/lab0/)
+# Labs: [zero lab](https://otm-pro.github.io/InternetProgramming/lab0/)
