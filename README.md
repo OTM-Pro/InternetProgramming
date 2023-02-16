@@ -1,1 +1,1 @@
-# Internet Programming Labs
+# Labs
