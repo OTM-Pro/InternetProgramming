@@ -46,3 +46,4 @@ document.write('<p style="margin:0;font-size:19px;"><b>СУММА СО СКИД�
 let totalPrice = fullPrice - discountSize;
 document.write('<p style="margin:0;text-align:center;font-size:19px;"><b>' + totalPrice + '.00 BYN</b></p>');
 document.write('</div>');
+document.write('<a href="https://otm-pro.github.io/InternetProgramming/lab1/task2">ex2</a>');
