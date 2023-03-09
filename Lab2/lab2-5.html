@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chekushin Kirill</title>
+    <script>
+        function factorial(k)
+        {
+            return k ? k * factorial(k - 1) : 1;
+        }
+
+        document.write('<p>(Вариант №2)</p>');
+        let x = NaN;
+        let y = 0;
+        let n = 0;
+
+        while (true)
+        {
+            x = parseInt(prompt('Введите значение Х', '10'));
+            if (!isNaN(x)) break;
+            else alert('Пожалуйста введите Х правильно!');
+        }
+
+        do
+        {
+            y += (x ** n) / factorial(n);
+        }
+        while (++n < 100);
+
+        document.write('<p><b>Значение функции, при условии:</b></p>');
+        document.write('<img src="images/expression2.png" />');
+        document.write('<p> = ' + y + '</p>');
+    </script>
+</head>
+<body>
+
+</body>
+</html>
