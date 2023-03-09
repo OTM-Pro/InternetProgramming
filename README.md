@@ -11,6 +11,7 @@
 * ##### [Exercise 3](https://otm-pro.github.io/InternetProgramming/Lab2/lab2-3.html) (option 2)
 * ##### [Exercise 4](https://otm-pro.github.io/InternetProgramming/Lab2/lab2-4.html)
 * ##### [Exercise 5](https://otm-pro.github.io/InternetProgramming/Lab2/lab2-5.html) (option 2)
+
 ---
 ##### [Open GitHub](https://github.com/OTM-Pro/InternetProgramming)
 ###### Chekushin K. A.
