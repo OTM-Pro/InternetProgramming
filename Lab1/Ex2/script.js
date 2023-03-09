@@ -1,7 +1,7 @@
 let radius = NaN;
 while (true)
 {
-    radius = parseInt(prompt('Введите радиус шара', ''));
+    radius = parseInt(prompt('Введите радиус шара', '10'));
     if (!isNaN(radius)) break;
     else alert('Пожалуйста введите радиус правильно!');
 }
@@ -9,7 +9,7 @@ while (true)
 let x = NaN;
 while (true)
 {
-    x = parseInt(prompt('Введите значение X', ''));
+    x = parseInt(prompt('Введите значение X', '10'));
     if (!isNaN(x)) break;
     else alert('Пожалуйста введите значение правильно!');
 }
@@ -17,7 +17,7 @@ while (true)
 let y = NaN;
 while (true)
 {
-    y = parseInt(prompt('Введите значение Y', ''));
+    y = parseInt(prompt('Введите значение Y', '20'));
     if (!isNaN(y)) break;
     else alert('Пожалуйста введите значение правильно!');
 }
@@ -25,7 +25,7 @@ while (true)
 let z = NaN;
 while (true)
 {
-    z = parseInt(prompt('Введите значение Z', ''));
+    z = parseInt(prompt('Введите значение Z', '30'));
     if (!isNaN(z)) break;
     else alert('Пожалуйста введите значение правильно!');
 }
