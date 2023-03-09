@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chekushin Kirill</title>
+    <script>
+        document.write('<p>(Вариант №2)</p>');
+
+        let x = NaN;
+        while (true)
+        {
+            x = parseInt(prompt('Введите значение Х', ''));
+            if (!isNaN(x)) break;
+            else alert('Пожалуйста введите Х правильно!');
+        }
+
+        let y = 0;
+        if (x <= 0 && x != -10) y = x * x;
+        else if (x > 1) y = Math.sqrt(x + 1);
+        else y = 1 / x;
+
+        document.write('<p><b>Значение переменной y, при условии:</b></p>');
+        document.write('<img src="images/expression.png" />');
+        document.write('<p>y = ' + y + '</p>');
+    </script>
+</head>
+<body>
+
+</body>
+</html>

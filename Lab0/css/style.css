@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+}
+
+#mainmenu {
+  margin: 20px 12px;
+  background-color: plum;
+}
+
+#mainmenu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+}
+
+#mainmenu ul li {
+  margin: 0px -7px 0 0;
+  display: inline-block;
+  background-color: plum;
+}
+
+#mainmenu ul li a {
+  color: black;
+}
+
+#mainmenu a {
+  display: block;
+  padding: 0 10px;
+  line-height: 50px;
+  text-decoration: none;
+}
+
+#mainmenu ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+}
+
+#mainmenu ul li:hover ul {
+  display: inherit;
+}
+
+#mainmenu ul ul li {
+  min-width: 170px;
+  float: none;
+  display: list-item;
+  position: relative;
+  background: black;
+}
+
+#mainmenu ul ul li a {
+  color: red;
+}
