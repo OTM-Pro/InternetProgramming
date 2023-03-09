@@ -1,7 +1,7 @@
 let firstPrice = NaN;
 while (true)
 {
-    firstPrice = parseInt(prompt('Какова цена первого товара?', ''));
+    firstPrice = parseInt(prompt('Какова цена первого товара?', '900'));
     if (!isNaN(firstPrice)) break;
     else alert('Пожалуйста введите цену правильно!');
 }
@@ -9,7 +9,7 @@ while (true)
 let secondPrice = NaN;
 while (true)
 {
-    secondPrice = parseInt(prompt('Какова цена второго товара?', ''));
+    secondPrice = parseInt(prompt('Какова цена второго товара?', '700'));
     if (!isNaN(secondPrice)) break;
     else alert('Пожалуйста введите цену правильно!');
 }
@@ -17,7 +17,7 @@ while (true)
 let discount = NaN;
 while (true)
 {
-    discount = parseInt(prompt('Введите скидку в процентах (от 1 до 5)', ''));
+    discount = parseInt(prompt('Введите скидку в процентах (от 1 до 5)', '5'));
     if (!isNaN(discount) && (discount >= 1 && discount <= 5)) break;
     else alert('Пожалуйста введите скидку правильно!');
 }
